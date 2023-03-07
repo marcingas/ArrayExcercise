@@ -34,6 +34,5 @@ public class ArrayFirstTask {
         String[] goal = {"corner","player"};
         //zadanie 7 i 8 : w tablicy możemy przechowywać typy prymitywne oraz referencyjne typy proste są przechowywane
         // jako wartości a typy referencyjne jako referencje do obiektów.
-
     }
 }
