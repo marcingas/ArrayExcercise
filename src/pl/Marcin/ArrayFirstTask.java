@@ -21,14 +21,15 @@ public class ArrayFirstTask {
         System.out.println(Arrays.toString(array));
 
         //zad 2:
-        Long []random = new Long[100];
+        long []randomArray = new long[100];
         Random random1 = new Random();
         int i = 0;
-        while(i < random.length){
-            random[i]= random1.nextLong(398777);
+        int arrayLength = randomArray.length;
+        while(i < arrayLength){
+            randomArray[i]= random1.nextLong(398777);
             i++;
         }
-        System.out.println(Arrays.toString(random));
+        System.out.println(Arrays.toString(randomArray));
         Long[] numbers = new Long[100];
         Arrays.fill(numbers, 0, 10, 1L);
         Arrays.fill(numbers, 10, 30, 2L);

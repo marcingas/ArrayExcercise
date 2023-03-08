@@ -74,12 +74,12 @@ public class ArrayStringThirtyOneElTask {
         character[19] = "skąpa";
 
         Random random = new Random();
-        int first = random.nextInt(30);
-        int second = random.nextInt(11);
-        int third = random.nextInt(19);
-        String a = "Osoba urodzona w ";
-        String sentence = a.concat(table[first]).concat(" w ").concat(month[second]).concat(" jest ").
-                concat(character[third]);
+        int chooseTown = random.nextInt(30);
+        int chooseMonth = random.nextInt(11);
+        int chooseCharacterFeature = random.nextInt(19);
+        String firstPart = "Osoba urodzona w ";
+        String sentence = firstPart.concat(table[chooseTown]).concat(" w ").concat(month[chooseMonth]).concat(" jest ").
+                concat(character[chooseCharacterFeature]);
         System.out.println(sentence);
     }
 }
